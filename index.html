@@ -1,16 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- font-awesome cdn link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <h1>hello</h1>
+    <div id="loader"></div>
+    <!-- header section starts -->
+    <section id="header">
+        <div class="header bg-dark" id="navbar">
+            <div class="name">Arman Thakkar</div>
+            <div>
+                <ul class="navbar">
+                    <li class="header-list test"><a href="#" class="animation-link" id="home">Home</a></li>
+                    <li class="header-list test"><a href="#about-sec" class="animation-link" id="about">About</a></li>
+                    <li class="header-list test"><a href="#skill-sec" class="animation-link" id="skill">Skills</a></li>
+                    <li class="header-list test"><a href="#portfolio-sec" id="portfolio" class="animation-link">Portfolio</a></li>
+                    <li class="header-list test"><a href="#contact-sec" id="contact" class="animation-link">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- banner content starts-->
+        <div class="banner">
+            <img src="./assets/images/myimage.png" width="320px" height="500px" alt="myimage" class="myimage">
+            <div class="banner-name">
+                <span class="banner-name1 animation-link">
+                    Arman
+                </span>
+                <br>
+                <span class="banner-name2 animation-link">
+                    Thakkar..
+                </span>
+            </div>
+        </div>
+        <!-- banner content ends-->
+
+    </section>
+    <!-- header section ends -->
+
+    <!-- About section starts -->
+    <section id="about-sec">
+        <div class="container reveal">
+            <h3 class="about-me">About</h3>
+            <hr class="hr">
+            <div class="about">
+                <div class='about-img'>
+                    <img src="./assets/images/myimage.png" alt="myimg" width="250px" height="250px"
+                        style="border-radius: 116px;">
+                </div>
+                <div class="about-content">
+                    <h3 class="about-h3">I'am Arman Thakkar</h3>
+                    <p class="about-p">Associate Software Engineer To be..</p>
+                    <p class="about-p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ullam? Dicta
+                        cupiditate numquam ut
+                        praesentium! Dolorem explicabo blanditiis obcaecati nostrum.</p>
+                    <div class="social">
+                        <i class="fa fa-github"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
 
 
+    <!-- skills section start -->
+    <section id="skill-sec">
+        <h3 class="about-me">Skills</h3>
+        <hr class="hr">
+        <div class="container skill reveal">
+            <div class="skillwid">
+                <h3 class="animation-link">Development</h3>
+                <div>
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>SCSS</li>
+                        <li>REACT</li>
+                    </ul>
+                </div>
+                <h3 class="animation-link">DESIGN</h3>
+                <div>
+                    <ul class="skill-list">
+                        <li>PHOTOSHOP</li>
+                        <li>AI</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skillwid">
+                <img src="./assets/images/skills.jpeg" class="skills">
+            </div>
+        </div>
+    </section>
+    <!-- skills section end -->
+
+
+    <!-- portfolio section start-->
+    <section id="portfolio-sec">
+        <h3 class="about-me">Portfolio</h3>
+        <hr class="hr">
+        <div class="container reveal">
+            <div class="portfolio1">
+                <img src="./assets/images/img-1.webp" class="port-img">
+                <div class="overlay1">
+                    <span>
+                        <b>Flappybird</b><br>I made a flappy bird game with Html ,css and js along with that i get know
+                        more about math.random.This is my first game and everybody loved that game.
+                    </span>
+                </div>
+            </div>
+            <div class="portfolio2">
+                <img src="./assets/images/img-2.jpg" class="port-img">
+                <div class="overlay2">
+                    <span>
+                        <b>Car racing</b><br>I made a Car racing with Html ,css and js along with that i get know more
+                        about math.random.This is my first game and everybody loved that game.
+                    </span>
+                </div>
+            </div>
+            <div class="portfolio3">
+                <img src="./assets/images/img-3.jfif" class="port-img">
+                <div class="overlay3">
+                    <span>
+                        <b>Bubble game </b><br>I made a lots of game but this game is very hard to make it is impossible
+                        to make this game by me but still. I have not give up.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section  end-->
+
+    <!-- contact section  -->
+    <section id="contact-sec">
+        <h3 class="about-me">Contact</h3>
+        <hr class="hr">
+        <div class="container reveal">
+        <div class="contact-info ">
+            <div class="all-info skillwid">
+               <div>
+                    <h4>Email</h4>
+                    <span>armanthakkar63@gmail.com</span>
+               </div>
+               <div>
+                    <h4>Phone</h4>
+                    <span>9978686798</span>
+               </div>
+               <div>
+                    <h4>Address</h4>
+                    <span>India</span>
+               </div>
+            </div>
+   
+            <div class="skillwid">
+                <form>
+                    <label for="fname" class="fname">Name:</label>
+                    <input type="text"  name="firstname" placeholder="Your name.." required>
+                
+                    <label for="lname" class="lname">Email:</label>
+                    <input type="text"  name="lastname" placeholder="Your last name.." required>
+
+                    <label for="lname">Write your thought:</label>
+                    <textarea class="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <button class="btn btn-primary">submit</button>
+                </form>
+
+                
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- contact section end  -->
+
+<!-- footer section -->
+<footer class="d-flex bg-dark text-white">
+    <p style='margin:0px auto'>Author: Arman Thakkar @2022</p>
+  </footer>
+
+    <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
