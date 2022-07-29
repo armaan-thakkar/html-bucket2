@@ -3,22 +3,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Square+Peg&display=swap');
 
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-html {scroll-behavior: smooth;}
-body{font-family: 'Poppins', sans-serif;}
-li{list-style:none}
-.d-flex{display:flex}
-.bg-dark {background-color: black;}
-.skillwid{width:50%}
-hr{
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none
+}
+
+.d-flex {
+    display: flex
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.skillwid {
+    width: 50%
+}
+
+hr {
     height: 1px !important;
     background-color: pink;
     width: 6%;
-    margin:0px auto;
+    margin: 0px auto;
 }
+
 #loader {
     border: 12px solid #f3f3f3;
     border-radius: 50%;
@@ -27,7 +47,8 @@ hr{
     height: 70px;
     animation: spin 1s linear infinite;
 }
-  .center {
+
+.center {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -35,7 +56,7 @@ hr{
     right: 0;
     margin: auto;
 }
-  
+
 
 
 /* for header section start */
@@ -43,21 +64,24 @@ hr{
     list-style: none;
     margin-left: 4rem;
 }
-.header-list a{
+
+.header-list a {
     color: white;
     font-size: 1.8rem;
-    text-decoration:none;
-    padding:6px;
+    text-decoration: none;
+    padding: 6px;
 }
+
 .animation-link {
     display: inline-block;
     position: relative;
     color: orange;
     text-decoration: none;
-    color: black ;
-    cursor:pointer;
-  }
-  .animation-link:after {
+    color: black;
+    cursor: pointer;
+}
+
+.animation-link:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -68,25 +92,29 @@ hr{
     background-color: red;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+}
+
 .navbar {
     display: flex;
     margin: 0 !important;
-    align-items:center;
+    align-items: center;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 0px 81px;
     padding-top: 16px;
 }
-.sticky{
+
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:999;
+    z-index: 999;
 }
-.name{
+
+.name {
     padding-bottom: 22px;
     font-size: 4rem;
     font-weight: 700;
@@ -94,104 +122,120 @@ hr{
     font-family: 'Square Peg', cursive;
     letter-spacing: 3px;
 }
-.banner{
-    height: 500px;
+
+.banner {
+    height: 550px;
     background: #d3d3d3;
-    position:relative;
+    position: relative;
 }
-.banner-name{
+
+.banner-name {
     position: absolute;
     top: 2rem;
     color: wheat;
     font-size: 10rem;
     left: 29rem;
 }
-.banner-name1{
-    font-family:"Kanit";
-    position:absolute;
+
+.banner-name1 {
+    font-family: "Kanit";
+    position: absolute;
     cursor: pointer;
     color: black !important;
 }
-.banner-name2{
-    font-family:"Kanit";
+
+.banner-name2 {
+    font-family: "Kanit";
     left: 25rem;
-    position:absolute;
+    position: absolute;
     cursor: pointer;
     color: black !important;
 }
 
 /* about section starts */
-.about-me{
+.about-me {
     font-size: 5rem;
     text-align: center;
     display: flex;
     justify-content: center;
     font-family: "kanit";
     background-color: #fff;
-    margin-top:7rem;
-    margin-bottom:0;
-    
+    margin-top: 7rem;
+    margin-bottom: 0;
+
 }
-.about{
+
+.about {
     display: flex;
 }
-.about-img{
+
+.about-img {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about-h3{
+
+.about-h3 {
     color: #5b5bfd;
     font-size: 4rem;
-    font-family:"kanit";
-    margin-bottom:22px;
+    font-family: "kanit";
+    margin-bottom: 22px;
 }
-.about-p{
-    font-size:2rem;
-    color:grey;
-    
+
+.about-p {
+    font-size: 2rem;
+    color: grey;
+
 }
-.about-p1{
-    font-size:1.5rem;
-    color:grey;
-    
+
+.about-p1 {
+    font-size: 1.5rem;
+    color: grey;
+
 }
-.social{
+
+.social {
     margin: 26px 0px;
     font-size: 2.4rem;
-    letter-spacing:10px;
+    letter-spacing: 10px;
     cursor: pointer;
     color: grey;
 }
-.about-content{
-    width:50%;
-    padding:3rem;
+
+.about-content {
+    width: 50%;
+    padding: 3rem;
 }
+
 /* about section end */
 
 
 /* skill section start */
-.skill{
-   
+.skill {
+
     display: flex;
     justify-content: center;
     font-family: "kanit";
     background-color: #fff;
-    margin-top:7rem;
-    margin-bottom:0;
+    margin-top: 7rem;
+    margin-bottom: 0;
 }
-.skill h3{
-    color:#5b5bfd;
+
+.skill h3 {
+    color: #5b5bfd;
 }
-.skills{
+
+.skills {
     width: 90%;
     height: auto;
 }
-.skill-list{
-    display:flex
+
+.skill-list {
+    display: flex
 }
-.skill-list li{
+
+.skill-list li {
     margin-left: 2rem;
     background: black;
     color: white;
@@ -199,34 +243,38 @@ hr{
     border-radius: 10px;
 
 }
+
 /* skill section end */
 
 /* portfolio section start  */
-.portfolio1 img{
+.portfolio1 img {
     width: 100%;
     height: 230px;
     border-radius: 119px;
-    margin-top:3rem;
-    opacity:1;
+    margin-top: 3rem;
+    opacity: 1;
     position: relative;
 }
-.portfolio2 img{
+
+.portfolio2 img {
     width: 100%;
     height: 230px;
     border-radius: 119px;
-    margin-top:3rem;
-    opacity:1;
+    margin-top: 3rem;
+    opacity: 1;
     position: relative;
 }
-.portfolio3 img{
+
+.portfolio3 img {
     width: 100%;
     height: 230px;
     border-radius: 119px;
-    margin-top:3rem;
-    opacity:1;
+    margin-top: 3rem;
+    opacity: 1;
     position: relative;
 }
-  .overlay1 {
+
+.overlay1 {
     opacity: 0;
     position: absolute;
     top: 5%;
@@ -236,6 +284,7 @@ hr{
     text-align: center;
     padding: 10px 10px 12px 38px;
 }
+
 .overlay2 {
     position: absolute;
     top: 40%;
@@ -246,6 +295,7 @@ hr{
     padding: 10px 10px 12px 38px;
 
 }
+
 .overlay3 {
     position: absolute;
     top: 73%;
@@ -262,54 +312,98 @@ hr{
 /* hovers starts form here */
 
 /* header hover starts */
-.name:hover{
-    color:pink;
-    cursor:pointer;
+.name:hover {
+    color: pink;
+    cursor: pointer;
     transition: 1s ease-out;
 }
+
 .animation-link:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-.header-list a:hover{color:pink;text-decoration:none}
+
+.header-list a:hover {
+    color: pink;
+    text-decoration: none
+}
+
 /* header hover end */
 
 /* portfoilio hover */
 
-.portfolio1:hover .port-img{
-    opacity:0.3;
+.portfolio1:hover .port-img {
+    opacity: 0.3;
     cursor: pointer;
 }
-.portfolio2:hover .port-img{
-    opacity:0.3;
+
+.portfolio2:hover .port-img {
+    opacity: 0.3;
     cursor: pointer;
 }
-.portfolio3:hover .port-img{
-    opacity:0.3;
+
+.portfolio3:hover .port-img {
+    opacity: 0.3;
     cursor: pointer;
 }
-.portfolio1:hover .overlay1{
-    opacity:1;
-    cursor:pointer
+
+.portfolio1:hover .overlay1 {
+    opacity: 1;
+    cursor: pointer
 }
-.portfolio2:hover .overlay2{
-    opacity:1;
-    cursor:pointer
+
+.portfolio2:hover .overlay2 {
+    opacity: 1;
+    cursor: pointer
 }
-.portfolio3:hover .overlay3{
-    opacity:1;
-    cursor:pointer
+
+.portfolio3:hover .overlay3 {
+    opacity: 1;
+    cursor: pointer
 }
-.social:hover{color:black}
+
+.social:hover {
+    color: black
+}
 
 /* contact start */
-.contact-info{display:flex}
-.subject{width:100%;color:#5b5bfd;}
-.all-info h4{color:#5b5bfd;font-size:2rem;font-family:"kanit"}
-.all-info span{color:black;font-family:"Poppins"}
-.fname{color:#5b5bfd;font-size:2rem;margin:5px;}
-.lname{color:#5b5bfd;font-size:2rem;margin:5px;}
-.text-white{color:white;margin-top:9rem;}
+.contact-info {
+    display: flex
+}
+
+.subject {
+    width: 100%;
+    color: #5b5bfd;
+}
+
+.all-info h4 {
+    color: #5b5bfd;
+    font-size: 2rem;
+    font-family: "kanit"
+}
+
+.all-info span {
+    color: black;
+    font-family: "Poppins"
+}
+
+.fname {
+    color: #5b5bfd;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.lname {
+    color: #5b5bfd;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.text-white {
+    color: white;
+    margin-top: 9rem;
+}
+
 /* contact end */
 
 
@@ -321,44 +415,95 @@ hr{
 
 /* animations starts */
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  .reveal{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.reveal {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: 1s all ease;
-  }
-  
-  .reveal.active{
+}
+
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
-  }
+}
 
-  /* media quries  */
-  @media screen and (max-width: 600px) {
-    .about-img{
-        width:100%
+/* media quries  */
+@media screen and (max-width: 600px) {
+    .about-img {
+        width: 100%
     }
-    .about{display: block;}
-    .about-content{width: 100%;text-align: center;}
-    .skill{font-family: "kanit";
+
+    .about {
+        display: block;
+    }
+
+    .about-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill {
+        font-family: "kanit";
         background-color: #fff;
-        width:100%;
+        width: 100%;
         margin-bottom: 0;
         margin-top: 0px;
         text-align: center;
         display: block
     }
-        .skill-list li{margin-bottom:10px;cursor:pointer}
-        .skill-list{display:block};
-        .overlay1 {opacity:1 !important;font-size:1rem}
-            .skillwid{width: 100%;}
-            .skills{width:100%}
-            .banner img{width: 100%;}
-            .banner-name1{color:white !important }
-            .banner-name2{color:white !important;left:0  }
-            .banner-name{left: 0;text-align: center;}
-            .navbar{display:none}
+
+    .skill-list li {
+        margin-bottom: 10px;
+        cursor: pointer
+    }
+
+    .skill-list {
+        display: block
+    }
+
+    ;
+
+    .overlay1 {
+        opacity: 1 !important;
+        font-size: 1rem
+    }
+
+    .skillwid {
+        width: 100%;
+    }
+
+    .skills {
+        width: 100%
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner-name1 {
+        color: white !important
+    }
+
+    .banner-name2 {
+        color: white !important;
+        left: 0
+    }
+
+    .banner-name {
+        left: 0;
+        text-align: center;
+    }
+
+    .navbar {
+        display: none
+    }
 }

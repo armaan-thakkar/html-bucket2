@@ -13,9 +13,35 @@
   const nav = document.getElementById("header");
   const aboutSec = document.getElementById("about-sec");
   const skillSec = document.getElementById("skill-sec");
+  const sections = document.getElementsByTagName("section");
+
+home.addEventListener('click',()=>{
+    resetSec();
+    nav.style.display="block";
+})
+about.addEventListener('click',()=>{
+    resetSec();
+    aboutSec.style.display="block";
+})
+skill.addEventListener('click',()=>{
+    resetSec();
+    skillSec.style.display="block";
+})
+contact.addEventListener('click',()=>{
+    resetSec();
+    contactSec.style.display="block";
+})
+portfolio.addEventListener('click',()=>{
+    resetSec();
+    portfolioSec.style.display="block";
+})
 
 
-
+function resetSec(){
+for(let sec of sections){
+sec.style.display="none"
+}
+}
   //all listeners 
   window.addEventListener("scroll", reveal);
 
